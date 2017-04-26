@@ -1,0 +1,14 @@
+%matplotlib
+import numpy as np
+import matplotlib as mpl
+from matplotlib import pyplot as plt
+import os
+import sys
+
+# Just type f to make a figure
+class makefigatcorner():
+    def __repr__(self):
+        fig = plt.figure()
+        fig.canvas.manager.window.move(0, 0)
+f = makefigatcorner()
+%macro clip C:\t\plot_pickle\clipfig.py
