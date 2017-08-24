@@ -11,6 +11,6 @@ class makefigatcorner():
         fig = plt.figure()
         fig.canvas.manager.window.move(0, 0)
 f = makefigatcorner()
-%macro clip C:\t\plot_pickle\clipfig.py
+%macro clipfig C:\t\plot_pickle\clipfig.py
 
 startupfile = __file__
