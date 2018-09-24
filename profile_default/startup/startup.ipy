@@ -1,7 +1,11 @@
 %matplotlib
 import numpy as np
+#from numpy import linspace, logspace, geomspace
 import matplotlib as mpl
+import pandas as pd
 from matplotlib import pyplot as plt
+# Some stuff it's convenient to have in namespace that I do not think will collide with anything
+from matplotlib.pyplot import plot, figure, cla, gca, scatter, xlabel, ylabel, xlim, ylim, xscale, yscale
 import os
 import sys
 
