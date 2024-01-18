@@ -18,3 +18,6 @@ f = makefigatcorner()
 %macro clipfig C:\t\plot_pickle\clipfig.py
 
 startupfile = __file__
+
+np.set_printoptions(linewidth=200)
+pd.set_option('display.width', 200)
